@@ -1,0 +1,33 @@
+.Navbar__container {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  width: 100%;
+  background-color: var(--nav-background);
+  align-items: center;
+  text-align: center;
+}
+.logo {
+  margin-left: 2%;
+  width: 5%;
+}
+.logo .nordic_logo {
+  height: 100px;
+  width: 100px;
+
+  height: auto;
+  border-radius: 50%;
+}
+.navLinks {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.navLinks a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
